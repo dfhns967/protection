@@ -1,6 +1,5 @@
 const Discord           = require("discord.js");
 const client            = new Discord.Client();
-const config            = require("./config.json");
 const svg2img           = require("svg2img");
 const { RichEmbed }     = require("discord.js");
 const svgCaptcha        = require("svg-captcha");
